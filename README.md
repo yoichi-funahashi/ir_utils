@@ -7,7 +7,7 @@ Raspberry Pi Pico(RP2040互換)とMicroPythonを利用した赤外線リモコ�
  - 受信
    - 受信したデータのノイズ除去
    - データフォーマット（NEC、家製協(AEHA)、SONY）の分析
-   - UserCode(CustmerCode)、DataCodeの取得
+   - UserCode(CustmerCode)、DataCodeの取得 ※家製協(AEHA)、SONYについては実装できてません。
  - 送信
    - データフォーマット（NEC、家製協(AEHA)、SONY）、UserCode(CustmerCode)、DataCodeを指定して送信
    - データ配列を指定した送信
